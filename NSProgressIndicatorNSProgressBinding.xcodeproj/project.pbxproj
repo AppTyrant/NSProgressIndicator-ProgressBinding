@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA16922A22761A4A0085A221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16922922761A4A0085A221 /* AppDelegate.m */; };
+		BA16922C22761A4A0085A221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA16922B22761A4A0085A221 /* Assets.xcassets */; };
+		BA16922F22761A4A0085A221 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA16922D22761A4A0085A221 /* MainMenu.xib */; };
+		BA16923222761A4A0085A221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16923122761A4A0085A221 /* main.m */; };
+		BA16923C22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = BA16923B22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA16922522761A4A0085A221 /* NSProgressIndicatorNSProgressBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSProgressIndicatorNSProgressBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA16922822761A4A0085A221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA16922922761A4A0085A221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA16922B22761A4A0085A221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA16922E22761A4A0085A221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA16923022761A4A0085A221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA16923122761A4A0085A221 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA16923322761A4A0085A221 /* NSProgressIndicatorNSProgressBinding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSProgressIndicatorNSProgressBinding.entitlements; sourceTree = "<group>"; };
+		BA16923A22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSProgressIndicator+ProgressBinding.h"; sourceTree = "<group>"; };
+		BA16923B22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSProgressIndicator+ProgressBinding.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA16922222761A4A0085A221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA16921C22761A4A0085A221 = {
+			isa = PBXGroup;
+			children = (
+				BA16922722761A4A0085A221 /* NSProgressIndicatorNSProgressBinding */,
+				BA16922622761A4A0085A221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA16922622761A4A0085A221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA16922522761A4A0085A221 /* NSProgressIndicatorNSProgressBinding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA16922722761A4A0085A221 /* NSProgressIndicatorNSProgressBinding */ = {
+			isa = PBXGroup;
+			children = (
+				BA16922822761A4A0085A221 /* AppDelegate.h */,
+				BA16922922761A4A0085A221 /* AppDelegate.m */,
+				BA16922D22761A4A0085A221 /* MainMenu.xib */,
+				BA16923A22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.h */,
+				BA16923B22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.m */,
+				BA16923922761A600085A221 /* Supporting Files */,
+			);
+			path = NSProgressIndicatorNSProgressBinding;
+			sourceTree = "<group>";
+		};
+		BA16923922761A600085A221 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA16922B22761A4A0085A221 /* Assets.xcassets */,
+				BA16923022761A4A0085A221 /* Info.plist */,
+				BA16923122761A4A0085A221 /* main.m */,
+				BA16923322761A4A0085A221 /* NSProgressIndicatorNSProgressBinding.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA16922422761A4A0085A221 /* NSProgressIndicatorNSProgressBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA16923622761A4A0085A221 /* Build configuration list for PBXNativeTarget "NSProgressIndicatorNSProgressBinding" */;
+			buildPhases = (
+				BA16922122761A4A0085A221 /* Sources */,
+				BA16922222761A4A0085A221 /* Frameworks */,
+				BA16922322761A4A0085A221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSProgressIndicatorNSProgressBinding;
+			productName = NSProgressIndicatorNSProgressBinding;
+			productReference = BA16922522761A4A0085A221 /* NSProgressIndicatorNSProgressBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA16921D22761A4A0085A221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Writes for All";
+				TargetAttributes = {
+					BA16922422761A4A0085A221 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BA16922022761A4A0085A221 /* Build configuration list for PBXProject "NSProgressIndicatorNSProgressBinding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA16921C22761A4A0085A221;
+			productRefGroup = BA16922622761A4A0085A221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA16922422761A4A0085A221 /* NSProgressIndicatorNSProgressBinding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA16922322761A4A0085A221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA16922C22761A4A0085A221 /* Assets.xcassets in Resources */,
+				BA16922F22761A4A0085A221 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA16922122761A4A0085A221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA16923222761A4A0085A221 /* main.m in Sources */,
+				BA16922A22761A4A0085A221 /* AppDelegate.m in Sources */,
+				BA16923C22761A9B0085A221 /* NSProgressIndicator+ProgressBinding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA16922D22761A4A0085A221 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA16922E22761A4A0085A221 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA16923422761A4A0085A221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA16923522761A4A0085A221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA16923722761A4A0085A221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSProgressIndicatorNSProgressBinding/NSProgressIndicatorNSProgressBinding.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E442S8V72;
+				INFOPLIST_FILE = NSProgressIndicatorNSProgressBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wfa.wk.NSProgressIndicatorNSProgressBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA16923822761A4A0085A221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSProgressIndicatorNSProgressBinding/NSProgressIndicatorNSProgressBinding.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3E442S8V72;
+				INFOPLIST_FILE = NSProgressIndicatorNSProgressBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wfa.wk.NSProgressIndicatorNSProgressBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA16922022761A4A0085A221 /* Build configuration list for PBXProject "NSProgressIndicatorNSProgressBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA16923422761A4A0085A221 /* Debug */,
+				BA16923522761A4A0085A221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA16923622761A4A0085A221 /* Build configuration list for PBXNativeTarget "NSProgressIndicatorNSProgressBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA16923722761A4A0085A221 /* Debug */,
+				BA16923822761A4A0085A221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA16921D22761A4A0085A221 /* Project object */;
+}
